@@ -10,3 +10,6 @@ const randomNumber = Math.floor(Math.random() * 5);
 const generateMessage = () => {
     console.log(`Never ${neverArray[randomNumber]}. Always ${alwaysArray[randomNumber]}. ${motivateArray[randomNumber]}!`);
 }
+
+//Invoke function
+generateMessage();
